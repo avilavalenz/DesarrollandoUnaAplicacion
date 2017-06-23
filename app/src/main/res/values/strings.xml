@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Registro Vaquero</string>
+
+    <!--Button-->
+    <string name="textoBoton">Siguiente</string>
+    <string name="btnEditarDatos">Editar Datos</string>
+
+    <!--Hint-->
+    <string name="hintNombreCompleto">Nombre Completo</string>
+    <string name="hintTelefono">Teléfono</string>
+    <string name="hintEmail">e-Mail</string>
+    <string name="hintDescripcionContacto">Descripción del Contacto</string>
+
+    <!--TextView-->
+    <string name="tvConfirmarDatos">Confirmar Datos</string>
+    <string name="tvNombreCompleto">Aquí va el nombre completo.</string>
+    <string name="tvFechaNacimiento">Aquí va la fecha de nacimiento.</string>
+    <string name="tvTelefono">Aquí va el teléfono.</string>
+    <string name="tvEmail">Aquí va el e-Mail.</string>
+    <string name="tvDescripcionContacto">Aquí va la descripción del contacto.</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="email">e-Mail:</string>
+    <string name="telefono">Teléfono:</string>
+    <string name="fechaNacimiento">Fecha de Nacimiento:</string>
+
+    <!--Keys-->
+    <string name="varNombre">nombre</string>
+    <string name="varFechaNacimiento">fechaNacimiento</string>
+    <string name="varTelefono">telefono</string>
+    <string name="vareMail">eMail</string>
+    <string name="varDescripcion">descripcion</string>
+
+    <string name="dateFormat">dd/MM/yyyy</string>
+</resources>

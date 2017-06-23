@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/layoutPadding"
+    android:paddingBottom="@dimen/layoutPadding"
+    android:paddingLeft="@dimen/layoutPadding"
+    android:paddingRight="@dimen/layoutPadding"
+    tools:context="mx.com.tormex.desarrollandounaaplicacion.desarrollandounaaplicacion.MainActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintNombreCompleto"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <DatePicker
+        android:id="@+id/dpFechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_below="@id/etNombreCompleto"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dpFechaNacimiento">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintTelefono"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTelefono">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintEmail"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etDescripcionContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmail">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintDescripcionContacto"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textoBoton"
+        android:theme="@style/MiBotonRaised"
+        android:layout_below="@id/etDescripcionContacto"
+        />
+
+</RelativeLayout>

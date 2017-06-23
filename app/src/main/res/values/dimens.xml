@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutPadding">16dp</dimen>
+    <dimen name="textViewPadding">8dp</dimen>
+    <dimen name="informacionContacto">18dp</dimen>
+    <dimen name="top">22dp</dimen>
+    <dimen name="btnSize">150dp</dimen>
+</resources>
